@@ -1,0 +1,6 @@
+name: MtbaApi Module
+description: Request Data from MTBA REST API
+package: Custom
+type: module
+version: 1.0
+core: 8.x
