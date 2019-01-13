@@ -1,0 +1,21 @@
+{
+	"name": "nicholasmole/MtbaApi",
+	"description": "Request Data from MTBA REST API",
+	"type": "drupal-module",
+	"authors": [
+			{
+					"name": "Nicholas Mole",
+					"email": "nmole065@gmail.com"
+			}
+	],
+	"repositories": [
+		{
+				"url": "https://github.com/nicholasmole/jsonapirequest",
+				"type": "vcs"
+		}
+	],
+	"license": "GPL-2.0-or-later",
+	"require": {
+			"nicholasmole/jsonapirequest": ">=0.1"
+	}
+}

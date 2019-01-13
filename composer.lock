@@ -1,0 +1,60 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "b56b82ef132f1099ac8829a90f997b59",
+    "packages": [
+        {
+            "name": "nicholasmole/jsonapirequest",
+            "version": "0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nicholasmole/JsonApiRequest.git",
+                "reference": "b548d4be2af84806e2be68d9a6aaede9e080620b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nicholasmole/JsonApiRequest/zipball/b548d4be2af84806e2be68d9a6aaede9e080620b",
+                "reference": "b548d4be2af84806e2be68d9a6aaede9e080620b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nick Mole",
+                    "email": "nmole065@gmail.com"
+                }
+            ],
+            "description": "Request Json Api using PHP Curl",
+            "support": {
+                "source": "https://github.com/nicholasmole/JsonApiRequest/tree/v0.1.1",
+                "issues": "https://github.com/nicholasmole/JsonApiRequest/issues"
+            },
+            "time": "2019-01-13T06:43:30+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
