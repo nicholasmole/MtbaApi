@@ -15,6 +15,11 @@
 		}
 	],
 	"license": "GPL-2.0-or-later",
+	"autoload": {
+		"psr-4": {
+				"NicholasMole\\JsonApiRequest\\": "nicholasmole/jsonapirequest/src/"
+		}
+	},
 	"require": {
 			"nicholasmole/jsonapirequest": ">=0.1"
 	}

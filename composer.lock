@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nicholasmole/JsonApiRequest.git",
-                "reference": "b548d4be2af84806e2be68d9a6aaede9e080620b"
+                "reference": "fad9e6ecf7e815e617ff448c6abff08c0ecc8e18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nicholasmole/JsonApiRequest/zipball/b548d4be2af84806e2be68d9a6aaede9e080620b",
-                "reference": "b548d4be2af84806e2be68d9a6aaede9e080620b",
+                "url": "https://api.github.com/repos/nicholasmole/JsonApiRequest/zipball/fad9e6ecf7e815e617ff448c6abff08c0ecc8e18",
+                "reference": "fad9e6ecf7e815e617ff448c6abff08c0ecc8e18",
                 "shasum": ""
             },
             "require": {
@@ -28,6 +28,12 @@
             },
             "type": "library",
             "autoload": {
+                "psr-4": {
+                    "NicholasMole\\JsonApiRequest\\": "src/"
+                },
+                "files": [
+                    "src/JsonApiRequest.php"
+                ],
                 "classmap": [
                     "src/"
                 ]
@@ -46,7 +52,7 @@
                 "source": "https://github.com/nicholasmole/JsonApiRequest/tree/v0.1.1",
                 "issues": "https://github.com/nicholasmole/JsonApiRequest/issues"
             },
-            "time": "2019-01-13T06:43:30+00:00"
+            "time": "2019-01-13T20:15:47+00:00"
         }
     ],
     "packages-dev": [],

@@ -1,0 +1,47 @@
+{#
+
+#}
+<div class="container">
+	<h1>
+		MTBA Train Routes
+	</h1>
+
+	{% set routes_title = "" %}
+
+	<div class="mtba_table">
+
+		{% for routes in route_data %}
+			
+			{% if routes_title != routes.attributes.description %}
+				
+				{% set routes_title = routes.attributes.description %}
+			
+				<h2>
+					{{ routes_title }}
+				</h2>
+				
+			{% endif %} 
+			<tr>
+				<a 
+					class="mtba_routes_container" 
+					style="background-color:#{{ routes.attributes.color }};"
+					href="/routes/{{ routes.id }}"
+				>
+					{{ routes.attributes.long_name }}
+				</a>
+			</tr>
+	
+		{% else %}
+				<div>
+					<h2>
+						Sorry, no results could be found!
+					</h2>
+					<div>
+						An Error has occured on the server, please try again later.
+					</div>
+				</div>
+		{% endfor %}
+
+	</div>
+
+</div>

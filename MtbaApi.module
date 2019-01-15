@@ -1,0 +1,24 @@
+<?php
+
+function MtbaApi_preprocess_html(&$variables) {
+
+    $variables['page']['#attached']['library'][] = 'MtbaApi/mtba-css';
+    
+}
+
+function MtbaApi_theme($existing, $type, $theme, $path) {
+
+  return array(
+        'mtba_index' => array(
+            'variables' => ['route_data' => NULL],
+            'template' => 'mtba_index',
+        ),
+        'mtba_list' => array(
+            'variables' => [
+                'route_data' => NULL,
+                'route_title' => NULL
+            ],
+            'template' => 'mtba_list',
+        ),
+    );
+}

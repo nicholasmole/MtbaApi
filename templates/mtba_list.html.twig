@@ -1,0 +1,34 @@
+{#
+
+#}
+<div class="container">
+	<h1>
+	  {{ route_title }} Line Schedule
+	</h1>
+
+	<table class="mtba_table">
+
+		{% for routes in route_data %}
+		<tr>
+			<th>
+				{{ routes.title }}
+			</th>
+				
+			<th>
+					{{ routes.arrival_time }}
+			</th>
+		</tr>
+		{% else %}
+				<div>
+					<h2>
+						Sorry, no results could be found!
+					</h2>
+					<div>
+						An Error has occured on the server, please try again later.
+					</div>
+				</div>
+		{% endfor %}
+
+	</table>
+
+</div>
