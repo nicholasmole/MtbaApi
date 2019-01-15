@@ -1,4 +1,4 @@
-MtbaApi.routes:
+mtbaapi.routes:
   path: 'routes/{trainroutes}'
   defaults:
     _controller: '\Drupal\MtbaApi\Controller\MtbaApiTrainRoutesController::content'
@@ -6,7 +6,7 @@ MtbaApi.routes:
   requirements:
     _permission: 'access content'
 
-MtbaApi.content:
+mtbaapi.content:
   path: '/routes'
   defaults:
     _controller: '\Drupal\MtbaApi\Controller\MtbaApiController::content'

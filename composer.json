@@ -1,5 +1,6 @@
 {
-	"name": "nicholasmole/MtbaApi",
+	"name": "nicholasmole/mtbaapi",
+	"version" : "0.1.0",
 	"description": "Request Data from MTBA REST API",
 	"type": "drupal-module",
 	"authors": [
@@ -21,6 +22,6 @@
 		}
 	},
 	"require": {
-			"nicholasmole/jsonapirequest": ">=0.1"
+			"nicholasmole/jsonapirequest": ">=0.1.1"
 	}
 }

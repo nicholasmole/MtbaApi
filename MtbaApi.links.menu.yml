@@ -1,6 +1,6 @@
-MtbaApi.admin:
+mtbaapi.admin:
   title: 'MtbaApi module settings'
   description: 'Request Data from MTBA REST API menu'
   parent: system.admin_config_development
-  route_name: MtbaApi.content
+  route_name: mtbaapi.content
   weight: 100

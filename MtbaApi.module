@@ -2,7 +2,7 @@
 
 function MtbaApi_preprocess_html(&$variables) {
 
-    $variables['page']['#attached']['library'][] = 'MtbaApi/mtba-css';
+    $variables['page']['#attached']['library'][] = 'mtbaapi/mtba-css';
     
 }
 
